@@ -14,7 +14,7 @@ def llm_pipeline():
         'summarization',
         model=base_model,
         tokenizer=tokenizer,
-        max_length=500, 
+        max_length=400, 
         min_length=50,
         device=device  # Add this line to specify the device
     )
